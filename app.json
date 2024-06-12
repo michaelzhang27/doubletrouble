@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DoubleTrouble",
-    "slug": "DoubleTrouble",
+    "name": "Double Trouble Training",
+    "slug": "doubletroubleapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doubletrouble.doubletroubleapp",
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db1c984f-a9ae-4b2b-892a-9701ec13b6a7"
+      }
     }
   }
 }
